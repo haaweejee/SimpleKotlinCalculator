@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="btnNumber" parent="TextAppearance.AppCompat.Widget.Button">
+        <!-- For Button Number  -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@color/colorBlack</item>
+
+    </style>
+
+    <style name="btnOperator" parent="TextAppearance.AppCompat.Widget.Button">
+        <!-- For Button Operator -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPurple</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@color/colorBlack</item>
+    </style>
+
+    <style name="tvInput" parent="TextAppearance.AppCompat">
+        <!-- For TextView Input -->
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="tvOutput" parent="TextAppearance.AppCompat">
+        <!-- For TextView Output -->
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+</resources>
